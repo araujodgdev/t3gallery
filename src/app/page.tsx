@@ -1,3 +1,5 @@
+import Image from "next/image"
+
 const mockImages = [
   {
     "name": "evgeniya-pron-dFUIZPcQCUM-unsplash.jpg",
@@ -62,7 +64,7 @@ export default function HomePage() {
     <main>
       <div className="flex flex-wrap gap-4">
         {[...mockImages, ...mockImages].map((img, i) => (<div key={i} className="w-48">
-          <img src={img.url} />
+          <Image src={img.url} alt={img.name} width={192} height={192}/>
         </div>))}
       </div>
     </main>
