@@ -4,4 +4,4 @@ export default function HomePage() {
       Hello (Gallery in progress)
     </main>
   )
-}
+} 
