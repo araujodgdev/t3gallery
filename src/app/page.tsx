@@ -2,60 +2,44 @@ import Image from "next/image"
 
 const mockImages = [
   {
-    "name": "evgeniya-pron-dFUIZPcQCUM-unsplash.jpg",
-    "key": "uxL5QSsQ0DaR7VZ1oJH4I8WqQbP9NgehBEJxjFs1CStXcwOf",
+    "name": "diego-marin-8i_pvt_j6D4-unsplash.avif",
+    "key": "uxL5QSsQ0DaRmI6w4RdgMQaAJOT5ZVn1UrsWf7RyzvuYeKk3",
     "customId": null,
-    "url": "https://ip8qj2qupw.ufs.sh/f/uxL5QSsQ0DaR7VZ1oJH4I8WqQbP9NgehBEJxjFs1CStXcwOf",
-    "size": 937765,
-    "uploadedAt": "2025-01-18T17:00:20.000Z"
+    "url": "https://ip8qj2qupw.ufs.sh/f/uxL5QSsQ0DaRmI6w4RdgMQaAJOT5ZVn1UrsWf7RyzvuYeKk3",
+    "size": 7666570,
+    "uploadedAt": "2025-01-18T17:42:23.000Z"
   },
   {
-    "name": "tianlei-wu-_eG1p8Ksxpw-unsplash.jpg",
-    "key": "uxL5QSsQ0DaRfr0GSZLhUC3i5kF42KTsbmDadePSvl9HxAOn",
+    "name": "evgeniya-pron-dFUIZPcQCUM-unsplash (1).avif",
+    "key": "uxL5QSsQ0DaRO9aVc4Nz6bfRYPH9ltiTy5sIvcWXxEU07S4n",
     "customId": null,
-    "url": "https://ip8qj2qupw.ufs.sh/f/uxL5QSsQ0DaRfr0GSZLhUC3i5kF42KTsbmDadePSvl9HxAOn",
-    "size": 4016405,
-    "uploadedAt": "2025-01-18T17:00:20.000Z"
+    "url": "https://ip8qj2qupw.ufs.sh/f/uxL5QSsQ0DaRO9aVc4Nz6bfRYPH9ltiTy5sIvcWXxEU07S4n",
+    "size": 444211,
+    "uploadedAt": "2025-01-18T17:42:23.000Z"
   },
   {
-    "name": "victor-oonk-Mk69XDUR7Vo-unsplash.jpg",
-    "key": "uxL5QSsQ0DaRiFpcrHPjlDzbqOSneojM52aL6T8Q9vdtwZxK",
+    "name": "tianlei-wu-_eG1p8Ksxpw-unsplash.avif",
+    "key": "uxL5QSsQ0DaRSHP6oDCeCU6NMKTzyRLkpSh1PIJvQ7D3Hawf",
     "customId": null,
-    "url": "https://ip8qj2qupw.ufs.sh/f/uxL5QSsQ0DaRiFpcrHPjlDzbqOSneojM52aL6T8Q9vdtwZxK",
-    "size": 1345920,
-    "uploadedAt": "2025-01-18T17:00:20.000Z"
+    "url": "https://ip8qj2qupw.ufs.sh/f/uxL5QSsQ0DaRSHP6oDCeCU6NMKTzyRLkpSh1PIJvQ7D3Hawf",
+    "size": 2159691,
+    "uploadedAt": "2025-01-18T17:42:23.000Z"
   },
   {
-    "name": "james-dimas-LPP-22vz5os-unsplash.jpg",
-    "key": "uxL5QSsQ0DaRJJj2QE7i3PpToEhlZ1uVNCUqD4xvR0F9Lsjy",
+    "name": "filip-kvasnak-UlbqFEDxE0I-unsplash.avif",
+    "key": "uxL5QSsQ0DaRo69jDRPrmUvyk6JFYZlaG5e2XzS0Hpt7gRV4",
     "customId": null,
-    "url": "https://ip8qj2qupw.ufs.sh/f/uxL5QSsQ0DaRJJj2QE7i3PpToEhlZ1uVNCUqD4xvR0F9Lsjy",
-    "size": 2674855,
-    "uploadedAt": "2025-01-18T17:00:20.000Z"
+    "url": "https://ip8qj2qupw.ufs.sh/f/uxL5QSsQ0DaRo69jDRPrmUvyk6JFYZlaG5e2XzS0Hpt7gRV4",
+    "size": 400392,
+    "uploadedAt": "2025-01-18T17:42:23.000Z"
   },
   {
-    "name": "diego-marin-8i_pvt_j6D4-unsplash.jpg",
-    "key": "uxL5QSsQ0DaRDH0a7m9YItbMgdJqsh183j9xVTEHyBKDaRnQ",
+    "name": "victor-oonk-Mk69XDUR7Vo-unsplash.avif",
+    "key": "uxL5QSsQ0DaRnYjLvVp63BXt9mu8wG4CqDM6cUN7yjzsiJga",
     "customId": null,
-    "url": "https://ip8qj2qupw.ufs.sh/f/uxL5QSsQ0DaRDH0a7m9YItbMgdJqsh183j9xVTEHyBKDaRnQ",
-    "size": 10152367,
-    "uploadedAt": "2025-01-18T17:00:20.000Z"
-  },
-  {
-    "name": "logan-weaver-lgnwvr-pQeJwAAqUaU-unsplash.jpg",
-    "key": "uxL5QSsQ0DaRc18sAx2boAdvPrSG5k9n8wlQe7x1pEzyjV2I",
-    "customId": null,
-    "url": "https://ip8qj2qupw.ufs.sh/f/uxL5QSsQ0DaRc18sAx2boAdvPrSG5k9n8wlQe7x1pEzyjV2I",
-    "size": 4360976,
-    "uploadedAt": "2025-01-18T17:00:20.000Z"
-  },
-  {
-    "name": "filip-kvasnak-UlbqFEDxE0I-unsplash.jpg",
-    "key": "uxL5QSsQ0DaR1i5PKmOTzGaJQl2UOfLqwZn5XVsP3e7Rdy4b",
-    "customId": null,
-    "url": "https://ip8qj2qupw.ufs.sh/f/uxL5QSsQ0DaR1i5PKmOTzGaJQl2UOfLqwZn5XVsP3e7Rdy4b",
-    "size": 1530815,
-    "uploadedAt": "2025-01-18T17:00:19.000Z"
+    "url": "https://ip8qj2qupw.ufs.sh/f/uxL5QSsQ0DaRnYjLvVp63BXt9mu8wG4CqDM6cUN7yjzsiJga",
+    "size": 684918,
+    "uploadedAt": "2025-01-18T17:42:22.000Z"
   }
 ]
 
